@@ -7,6 +7,7 @@ body{
 .header{
 padding-top: 24px;
 padding-bottom: 24px;
+border-bottom: 1px solid #e7e9fc
 }
 ul {list-style: none;
     }
@@ -77,6 +78,7 @@ margin-right: 76px;
 .contacts{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .studio{
     color: #2E2F42;
@@ -190,13 +192,18 @@ img{
 .features-team{
     display: flex;
     gap: 24px;
+    
 }
 .team-list{
     background-color: #FFFFFF;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    border: none;
 }
 .team-name{
     padding: 32px 16px;
+    padding: 32px 0;
+    
 }
 
 .portfolio{
@@ -211,6 +218,7 @@ img{
 .banking{
    padding: 32px 16px;
    border: 1px solid #E7E9FC;
+   border-top: none;
 }
 .footer{
     background-color: #2E2F42;
@@ -226,6 +234,8 @@ text-transform: uppercase;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-decoration: none;
+display: inline-block;
+margin-bottom: 16px;
 }
 .footer-logo:hover{
     color: #404BBF;
