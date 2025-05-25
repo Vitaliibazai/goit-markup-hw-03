@@ -5,9 +5,20 @@ body{
 }
 
 .header{
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 ul {list-style: none;
+    }
+p, h1, h2, h3, button, ul {
+margin-top: 0;
+margin-bottom: 0;padding-left: 0;
+}
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 .mail{
     color: #434455;
@@ -32,6 +43,15 @@ text-transform: uppercase;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-decoration: none;
+margin-right: 76px;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+.header-container{
+    display: flex;
+    align-items: center;
 }
 .header-logo:hover{
     color: #404BBF;
@@ -40,7 +60,8 @@ text-decoration: none;
     color: #404BBF;
 }
 .header-nav{
-   
+   display: flex;
+   gap: 40px;
 }
 .header-nav:hover{
     color: #404BBF;
@@ -51,8 +72,12 @@ text-decoration: none;
 
 .header-list-nav{
     font-style: normal;
+    margin-left: auto;
 }
-
+.contacts{
+    display: flex;
+    gap: 40px;
+}
 .studio{
     color: #2E2F42;
     font-size: 16px;
@@ -81,6 +106,12 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.04em;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
     
     }
 button:hover{
@@ -93,14 +124,22 @@ span{
     color: #2e2f42;
 
 }
+img{
+    display: block;
+}
 .main-title{
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .main{
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-color: #2E2F42;
 }
 .title{
@@ -109,7 +148,21 @@ span{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 32px;
     
+}
+.benefits{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.benefits-list{
+    display: flex;
+    gap: 24px;
+    
+}
+.features-title{
+    width: calc((100% - 24px * 3) / 4);
 }
 .text{
     color: #434455;
@@ -120,6 +173,9 @@ span{
 }
 .team{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 .team-title{
     color: #2E2F42;
@@ -128,12 +184,38 @@ span{
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.features-team{
+    display: flex;
+    gap: 24px;
 }
 .team-list{
     background-color: #FFFFFF;
+    text-align: center;
+}
+.team-name{
+    padding: 32px 16px;
+}
+
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.features-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.banking{
+   padding: 32px 16px;
+   border: 1px solid #E7E9FC;
 }
 .footer{
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo{
 color: #4d5ae5;
@@ -156,6 +238,8 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    margin-top: 16px;
 }
 .footer-span{
     color: #F4F4FD;
