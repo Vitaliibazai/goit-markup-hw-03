@@ -165,7 +165,7 @@ padding: 0;
 white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
-owerflow: hidden;
+overflow: hidden;
 }
 .benefits{
     padding-top: 120px;
