@@ -63,6 +63,7 @@ margin-right: 76px;
 .header-nav{
    display: flex;
    gap: 40px;
+   padding: 24px 0;
 }
 .header-nav:hover{
     color: #404BBF;
@@ -152,7 +153,18 @@ img{
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     margin-top: 32px;
-    
+}
+.visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+owerflow: hidden;
 }
 .benefits{
     padding-top: 120px;
