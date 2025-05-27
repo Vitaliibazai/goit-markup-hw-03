@@ -5,8 +5,6 @@ body{
 }
 
 .header{
-padding-top: 24px;
-padding-bottom: 24px;
 border-bottom: 1px solid #e7e9fc
 }
 ul {list-style: none;
@@ -27,6 +25,7 @@ margin-bottom: 0;padding-left: 0;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .mail:hover{
     color: #404BBF;
@@ -79,8 +78,7 @@ margin-right: 76px;
 .contacts{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
-}
+    }
 .studio{
     color: #2E2F42;
     font-size: 16px;
@@ -89,6 +87,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px 0;
+    display: block;
 }
 .studio:hover{
     color: #404BBF;
@@ -153,8 +152,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
-}
+    }
 .visually-hidden{
 position: absolute;
 width: 1px;
@@ -211,13 +209,11 @@ overflow: hidden;
     background-color: #FFFFFF;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
-    border: none;
+    width: calc((100% - 24px * 3) / 4);
 }
 .team-name{
-    padding: 32px 16px;
     padding: 32px 0;
-    
-}
+    }
 
 .portfolio{
     padding-top: 120px;
@@ -232,6 +228,9 @@ overflow: hidden;
    padding: 32px 16px;
    border: 1px solid #E7E9FC;
    border-top: none;
+}
+.app-block{
+    width: calc((100% - 24px * 2) / 3);
 }
 .footer{
     background-color: #2E2F42;
@@ -262,8 +261,7 @@ margin-bottom: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 16px;
-}
+    }
 .footer-span{
     color: #F4F4FD;
 }
